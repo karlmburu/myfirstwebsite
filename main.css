@@ -1,0 +1,200 @@
+body {
+  font-family: 'Fira Code', monospace;
+  margin: 0;
+  padding: 0;
+  background-color:#2F3640;
+  background-image: url("texturetastic-gray.png");
+  text-align: center;
+}
+
+/* Header - Dark Blue */
+header {
+  background-color: #2F3640; /* strong blue */
+  color: white;
+  padding: 30px 0;
+  background-image: url("texturetastic-gray.png");
+}
+
+h1 {
+  margin: 0;
+  font-size: 2.5em;
+  font-family: 'edu-nsw-act-cursive-font', 'Edu NSW ACT Cursive', cursive;
+  font-weight: 100;
+}
+
+h2 
+{
+  font-size: 1.5em;
+  margin-top: 10px;
+  font-family: 'Consolas', 'Monaco', 'Lucida Console','Liberation Mono','DejaVu Sans Mono' monospace;
+}
+h3 {
+  font-size: 1.2em;
+  margin-top: 10px;
+  font-family: 'Consolas', 'Monaco', 'Lucida Console','Liberation Mono','DejaVu Sans Mono' monospace;
+}
+
+/* About Section - Medium Blue */
+.about-section {
+  background-color: #2F3640  ; /* lighter blue */
+  padding: 40px 20px;
+  max-width: 800px;
+  margin: auto;
+  border-radius: 10px;
+  margin-top: 30px;
+  color: aliceblue;
+  background-image: url("texturetastic-gray.png");
+}
+
+.about-section img {
+  width: 150px;
+  height: 150px;
+  border-radius: 55%;
+  border: 4px solid #2F3640;
+  margin-bottom: 20px;
+  color: aliceblue;
+  background-image: url("texturetastic-gray.png");
+
+}
+
+p {
+  font-size: 18px;
+  line-height: 1.6;
+  color: #eef2f7;
+}
+
+/* Buttons */
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #2F3640; /* dp blue */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+button:hover {
+  background-color: #eeeff1; 
+  color: #00040a;
+}
+.contact-section {
+  background-color: #2F3640; /* lighter blue */
+  padding: 40px 20px;
+  max-width: 800px;
+  margin: auto;
+  border-radius: 10px;
+  margin-top: 30px;
+  color: aliceblue;
+  background-image: url("texturetastic-gray.png");
+}
+
+footer {
+  background-color: #2F3640;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  text-size-adjust: 100%;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+
+}
+
+.edu-nsw-act-cursive-font {
+  font-family: "Edu NSW ACT Cursive", cursive;
+  font-optical-sizing: auto;
+  font-weight: 100;
+  font-style: normal;
+}
+@media screen and (max-width: 600px) {
+  header {
+    padding: 20px 0;
+  }
+  
+  h1 {
+    font-size: 2em;
+  
+  }
+  
+  .about-section, .contact-section {
+    padding: 20px;
+    margin-top: 20px;
+  }
+  
+  button {
+    width: 100%;
+    padding: 15px;
+    font-size: 18px;
+  }
+  
+}
+@media screen and (max-width: 1024px) {
+  header {
+    padding: 20px 0;
+  }
+  
+  h1 {
+    font-size: 2.5em;
+  }
+  
+  .about-section, .contact-section {
+    padding: 30px;
+    margin-top: 30px;
+  }
+  
+  button {
+    width: auto;
+    padding: 10px 20px;
+    font-size: 16px;
+  }
+}
+a{
+  color: #1c73d6; 
+  text-decoration: none;
+}
+a:hover {
+  color: #eeeff1; 
+  text-decoration: underline;
+}
+.social-icons {
+  position: center;
+  margin-top: 20px;
+}
+
+.social-icons a {
+  color: #ffffff;
+  font-size: 24px;
+  margin-left: 15px;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.social-icons a:hover {
+  color: #64b5f6; }
+#projects {
+  background-color: #2F3640;
+  padding: 20px;
+  border-radius: 10px;
+   background-image: url("texturetastic-gray.png")
+}
+
+.project {
+  margin-bottom: 20px;
+}
+
+.project a {
+  text-decoration: none;
+  color: #3b75f1;
+  font-weight: bold;
+  font: 200;
+}
+
+.project a:hover {
+  color: #64b5f6;
+}
+.social-icons-footer {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
