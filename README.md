@@ -18,3 +18,4 @@ My website was built with:
  <li>Contact forn.</li>
  <li>Social media links.</li>
  <li>Easy to interact with.</li>
+ <li>Able to adapt to different screen sizes</li>
