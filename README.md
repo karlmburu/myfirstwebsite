@@ -13,7 +13,6 @@ My website was built with:
 <u>Features📄</u>
 <hr>
  <li>Beautiful design/layout.</li>
- <li>Functional UI as it is able to adapt to different screen sizes.</li>
  <li>Downloadable CV.</li>
  <li>Contact forn.</li>
  <li>Social media links.</li>
